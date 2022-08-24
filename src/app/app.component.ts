@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'exampleAngular';
+
+  counter =0;
+
+  names:string[] = ['bob', 'rob', 'miraj']
 }

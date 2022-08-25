@@ -12,6 +12,6 @@ export class AppComponent {
 
   names:string[] = ['bob', 'rob', 'miraj']
 
-isValid:boolean = true;    
+isValid:boolean = false;    
 
 }

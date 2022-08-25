@@ -21,6 +21,10 @@
       </tr>
   </tbody>
 </table>
-<div *ngIf="isValid">
+<div *ngIf="isValid; else else_block">
      The isValid is true so this is showing
  </div> 
+
+ <ng-template #else_block>
+      isValid is not true
+ </ng-template>

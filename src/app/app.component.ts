@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Player } from './interfaces/player';
 
 @Component({
   selector: 'app-root',
@@ -14,8 +15,12 @@ export class AppComponent {
 
   names:string[] = ['bob', 'rob', 'miraj']
 
-isValid:boolean = false;    
-
-
+  isValid:boolean = false;    
+  
+  players:Player[] =[
+  {name: 'Bob', age: 10},
+  {name: 'Steve', age:30},
+  {name: 'George', age:35},
+];
 
 }

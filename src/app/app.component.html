@@ -17,7 +17,9 @@
   </thead>
   <tbody>
       <tr *ngFor="let name of names">
-          <td>{{name}}</td>
+          
+          <td>{{name | lowercase}}</td>  <!--    pipeline used here -->  
+          
       </tr>
   </tbody>
 </table>
@@ -28,3 +30,5 @@
  <ng-template #else_block>
       isValid is not true
  </ng-template>
+
+ {{ price | currency }}

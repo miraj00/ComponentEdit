@@ -10,8 +10,12 @@ export class AppComponent {
 
   counter =0;
 
+  price:number = 10.25;
+
   names:string[] = ['bob', 'rob', 'miraj']
 
 isValid:boolean = false;    
+
+
 
 }
